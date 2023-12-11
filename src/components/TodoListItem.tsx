@@ -24,6 +24,7 @@ const TodoListItem = (props: Props) => {
       >
         <label
           htmlFor={`todo-${id}`}
+          onClick={(e) => e.preventDefault()}
           className={`${
             completed ? "line-through" : ""
           } text-lg cursor-pointer`}

@@ -10,7 +10,6 @@ const TodoCreate = () => {
     if (inputTextValue.trim() === "") {
       return;
     }
-    // alert("I have submitted!");
     setTodos(todos => [
       ...todos,
       {
